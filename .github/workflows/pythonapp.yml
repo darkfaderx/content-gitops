@@ -23,6 +23,6 @@ jobs:
     - name: Build & Push Image
       run: |
         cd ./python
-        echo "|Pepsi$518|" | docker login -u "alexyang1982" --password-stdin
+        echo "6699ce61-13a9-4e2d-af0c-b01bcea7d71d" | docker login -u "alexyang1982" --password-stdin
         docker image build -t alexyang1982/gitops:hellov1.0 .
         docker push alexyang1982/gitops:hellov1.0
